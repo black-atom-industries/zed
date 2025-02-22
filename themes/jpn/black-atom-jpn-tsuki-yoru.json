@@ -40,7 +40,7 @@
         "status_bar.background": "#0f0f0f",
         "title_bar.background": "#0f0f0f",
         "title_bar.inactive_background": "#0f0f0f",
-        "toolbar.background": "#0f0f0f",
+        "toolbar.background": "#1c1c1c",
         "tab_bar.background": "#0f0f0f",
         "tab.inactive_background": "#0f0f0f",
         "tab.active_background": "#1c1c1c",

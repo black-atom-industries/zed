@@ -40,7 +40,7 @@
         "status_bar.background": "<%= theme.ui.bg.panel %>",
         "title_bar.background": "<%= theme.ui.bg.panel %>",
         "title_bar.inactive_background": "<%= theme.ui.bg.panel %>",
-        "toolbar.background": "<%= theme.ui.bg.panel %>",
+        "toolbar.background": "<%= theme.ui.bg.default %>",
         "tab_bar.background": "<%= theme.ui.bg.panel %>",
         "tab.inactive_background": "<%= theme.ui.bg.panel %>",
         "tab.active_background": "<%= theme.ui.bg.default %>",
