@@ -1,10 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-  "name": "Black Atom - Station Engineering",
+  "name": "Black At•m — STA ∷ Engineering",
   "author": "Black Atom",
   "themes": [
     {
-      "name": "Black Atom - Station Engineering",
+      "name": "Black At•m — STA ∷ Engineering",
       "appearance": "dark",
       "style": {
         "border": "#21302b",
