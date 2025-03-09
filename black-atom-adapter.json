@@ -1,6 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/black-atom-industries/core/refs/heads/feature/dev-153-setup-black-atom-core/adapter.schema.json",
-  
+  "$schema": "https://raw.githubusercontent.com/black-atom-industries/core/refs/heads/main/adapter.schema.json",
   "black-atom-jpn-koyo-yoru": {
     "templates": ["./themes/jpn/black-atom-jpn-koyo-yoru.template.json"]
   },
@@ -12,16 +11,22 @@
   },
 
   "black-atom-stations-engineering": {
-    "templates": ["./themes/stations/black-atom-stations-engineering.template.json"]
+    "templates": [
+      "./themes/stations/black-atom-stations-engineering.template.json"
+    ]
   },
   "black-atom-stations-operations": {
-    "templates": ["./themes/stations/black-atom-stations-operations.template.json"]
+    "templates": [
+      "./themes/stations/black-atom-stations-operations.template.json"
+    ]
   },
   "black-atom-stations-medical": {
     "templates": ["./themes/stations/black-atom-stations-medical.template.json"]
   },
   "black-atom-stations-research": {
-    "templates": ["./themes/stations/black-atom-stations-research.template.json"]
+    "templates": [
+      "./themes/stations/black-atom-stations-research.template.json"
+    ]
   },
 
   "black-atom-terra-spring-day": {
