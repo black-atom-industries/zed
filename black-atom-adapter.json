@@ -9,6 +9,9 @@
   "black-atom-jpn-tsuki-yoru": {
     "templates": ["./themes/jpn/black-atom-jpn-tsuki-yoru.template.json"]
   },
+  "black-atom-jpn-murasaki-yoru": {
+    "templates": ["./themes/jpn/black-atom-jpn-murasaki-yoru.template.json"]
+  },
 
   "black-atom-stations-engineering": {
     "templates": [
