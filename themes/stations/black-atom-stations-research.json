@@ -72,8 +72,8 @@
         "terminal.bright_foreground": "#2b3b33",
         "terminal.dim_foreground": "#f0f2f1",
         "terminal.ansi.black": "#384b42",
-        "terminal.ansi.bright_black": "#f7faf9",
-        "terminal.ansi.dim_black": "#2b3b33",
+        "terminal.ansi.bright_black": "#5b8972",
+        "terminal.ansi.dim_black": "#5b8972",
         "terminal.ansi.red": "#f472a0",
         "terminal.ansi.bright_red": "#f472a0",
         "terminal.ansi.dim_red": "#e06c8c",
@@ -92,9 +92,9 @@
         "terminal.ansi.cyan": "#40bf75",
         "terminal.ansi.bright_cyan": "#40bf75",
         "terminal.ansi.dim_cyan": "#3fa569",
-        "terminal.ansi.white": "#f0f2f1",
+        "terminal.ansi.white": "#95b8ac",
         "terminal.ansi.bright_white": "#f0f2f1",
-        "terminal.ansi.dim_white": "#5b8972",
+        "terminal.ansi.dim_white": "#95b8ac",
         "link_text.hover": "#66bd0f",
         "version_control_added": "#53aa53",
         "version_control_modified": "#51796d",
@@ -384,3 +384,4 @@
     }
   ]
 }
+
