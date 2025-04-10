@@ -72,8 +72,8 @@
         "terminal.bright_foreground": "<%= theme.ui.fg.default %>",
         "terminal.dim_foreground": "<%= theme.ui.bg.default %>",
         "terminal.ansi.black": "<%= theme.palette.black %>",
-        "terminal.ansi.bright_black": "<%= theme.ui.bg.hover %>",
-        "terminal.ansi.dim_black": "<%= theme.ui.fg.default %>",
+        "terminal.ansi.bright_black": "<%= theme.palette.gray %>",
+        "terminal.ansi.dim_black": "<%= theme.palette.gray %>",
         "terminal.ansi.red": "<%= theme.palette.red %>",
         "terminal.ansi.bright_red": "<%= theme.palette.red %>",
         "terminal.ansi.dim_red": "<%= theme.palette.darkRed %>",
@@ -92,9 +92,9 @@
         "terminal.ansi.cyan": "<%= theme.palette.cyan %>",
         "terminal.ansi.bright_cyan": "<%= theme.palette.cyan %>",
         "terminal.ansi.dim_cyan": "<%= theme.palette.darkCyan %>",
-        "terminal.ansi.white": "<%= theme.palette.white %>",
+        "terminal.ansi.white": "<%= theme.palette.lightGray %>",
         "terminal.ansi.bright_white": "<%= theme.palette.white %>",
-        "terminal.ansi.dim_white": "<%= theme.ui.fg.disabled %>",
+        "terminal.ansi.dim_white": "<%= theme.palette.lightGray %>",
         "link_text.hover": "<%= theme.ui.fg.accent %>",
         "version_control_added": "<%= theme.ui.bg.add %>",
         "version_control_modified": "<%= theme.ui.bg.modify %>",
@@ -384,3 +384,4 @@
     }
   ]
 }
+
