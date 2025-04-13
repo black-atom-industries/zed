@@ -71,7 +71,7 @@ Alternatively, you can edit your Zed settings JSON file directly:
 
 ```json
 {
-  "theme": "black-atom-jpn-koyo-yoru"
+    "theme": "black-atom-jpn-koyo-yoru"
 }
 ```
 
@@ -193,4 +193,3 @@ MIT - See [LICENSE](./LICENSE) for details
 - [Black Atom for Neovim](https://github.com/black-atom-industries/nvim) - Neovim adapter
 - [Black Atom for Ghostty](https://github.com/black-atom-industries/ghostty) - Ghostty terminal adapter
 - [Black Atom for Obsidian](https://github.com/black-atom-industries/obsidian) - Obsidian adapter
-

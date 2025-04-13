@@ -7,9 +7,9 @@ This is the Zed adapter for Black Atom themes. It implements the Black Atom them
 ## Repository Structure
 
 - **themes/**: Theme files organized by collection
-  - **jpn/**: Japanese-inspired themes **stations/**: Space station-inspired themes
-  - **terra/**: Earth seasons-inspired themes
-  - **crbn/**: Carbon-inspired minimal themes
+    - **jpn/**: Japanese-inspired themes **stations/**: Space station-inspired themes
+    - **terra/**: Earth seasons-inspired themes
+    - **crbn/**: Carbon-inspired minimal themes
 - **black-atom-adapter.json**: Configuration file mapping themes to templates
 
 ## Adapter Pattern
@@ -53,21 +53,21 @@ Zed uses JSON format for theme definitions:
 
 ```json
 {
-  "name": "Theme Name",
-  "author": "Author Name",
-  "themes": [
-    {
-      "name": "Theme Name",
-      "appearance": "dark",
-      "style": {
-        "background": "#value",
-        "foreground": "#value"
-        // UI Colors
-        // Syntax Colors
-        // Terminal Colors
-      }
-    }
-  ]
+    "name": "Theme Name",
+    "author": "Author Name",
+    "themes": [
+        {
+            "name": "Theme Name",
+            "appearance": "dark",
+            "style": {
+                "background": "#value",
+                "foreground": "#value"
+                // UI Colors
+                // Syntax Colors
+                // Terminal Colors
+            }
+        }
+    ]
 }
 ```
 
@@ -93,4 +93,3 @@ When making changes to multiple themes:
 1. Update the templates rather than the adapted files
 2. Use the core CLI to re-adapt all themes
 3. Test changes with multiple color variants
-

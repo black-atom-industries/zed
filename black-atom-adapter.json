@@ -1,43 +1,40 @@
 {
-  "$schema": "https://raw.githubusercontent.com/black-atom-industries/core/refs/heads/main/adapter.schema.json",
-  "collections": {
-    "jpn": {
-      "template": "./themes/jpn/collection.template.json",
-      "themes": [
-        "black-atom-jpn-koyo-yoru",
-        "black-atom-jpn-koyo-hiru",
-        "black-atom-jpn-tsuki-yoru",
-        "black-atom-jpn-murasaki-yoru"
-      ]
-    },
-    "stations": {
-      "template": "./themes/stations/collection.template.json",
-      "themes": [
-        "black-atom-stations-engineering",
-        "black-atom-stations-operations",
-        "black-atom-stations-medical",
-        "black-atom-stations-research"
-      ]
-    },
-    "terra": {
-      "template": "./themes/terra/collection.template.json",
-      "themes": [
-        "black-atom-terra-spring-day",
-        "black-atom-terra-spring-night",
-        "black-atom-terra-summer-day",
-        "black-atom-terra-summer-night",
-        "black-atom-terra-fall-day",
-        "black-atom-terra-fall-night",
-        "black-atom-terra-winter-day",
-        "black-atom-terra-winter-night"
-      ]
-    },
-    "crbn": {
-      "template": "./themes/crbn/collection.template.json",
-      "themes": [
-        "black-atom-crbn-null",
-        "black-atom-crbn-supr"
-      ]
+    "$schema": "https://raw.githubusercontent.com/black-atom-industries/core/refs/heads/main/adapter.schema.json",
+    "collections": {
+        "jpn": {
+            "template": "./themes/jpn/collection.template.json",
+            "themes": [
+                "black-atom-jpn-koyo-yoru",
+                "black-atom-jpn-koyo-hiru",
+                "black-atom-jpn-tsuki-yoru",
+                "black-atom-jpn-murasaki-yoru"
+            ]
+        },
+        "stations": {
+            "template": "./themes/stations/collection.template.json",
+            "themes": [
+                "black-atom-stations-engineering",
+                "black-atom-stations-operations",
+                "black-atom-stations-medical",
+                "black-atom-stations-research"
+            ]
+        },
+        "terra": {
+            "template": "./themes/terra/collection.template.json",
+            "themes": [
+                "black-atom-terra-spring-day",
+                "black-atom-terra-spring-night",
+                "black-atom-terra-summer-day",
+                "black-atom-terra-summer-night",
+                "black-atom-terra-fall-day",
+                "black-atom-terra-fall-night",
+                "black-atom-terra-winter-day",
+                "black-atom-terra-winter-night"
+            ]
+        },
+        "crbn": {
+            "template": "./themes/crbn/collection.template.json",
+            "themes": ["black-atom-crbn-null", "black-atom-crbn-supr"]
+        }
     }
-  }
 }
