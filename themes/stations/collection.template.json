@@ -185,7 +185,7 @@
                 ],
                 "syntax": {
                     "attribute": {
-                        "color": "<%= theme.syntax.attribute.default %>",
+                        "color": "<%= theme.syntax.tag.attribute %>",
                         "font_style": null,
                         "font_weight": null
                     },
