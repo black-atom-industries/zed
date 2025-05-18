@@ -82,7 +82,7 @@
                 "terminal.ansi.dim_green": "#92a9bb",
                 "terminal.ansi.yellow": "#ff964c",
                 "terminal.ansi.bright_yellow": "#ff964c",
-                "terminal.ansi.dim_yellow": "#ff7c4f",
+                "terminal.ansi.dim_yellow": "#ff8f69",
                 "terminal.ansi.blue": "#b3c1cd",
                 "terminal.ansi.bright_blue": "#b3c1cd",
                 "terminal.ansi.dim_blue": "#92a9bb",
@@ -114,9 +114,9 @@
                 "hidden": "#7a8c9d",
                 "hidden.background": "#444c541a",
                 "hidden.border": "#7a8c9d",
-                "hint": "#ff7c4f",
-                "hint.background": "#ff7c4f1a",
-                "hint.border": "#ff7c4f",
+                "hint": "#ff8f69",
+                "hint.background": "#ff8f691a",
+                "hint.border": "#ff8f69",
                 "ignored": "#7a8c9d",
                 "ignored.background": "#444c541a",
                 "ignored.border": "#7a8c9d",
@@ -126,9 +126,9 @@
                 "modified": "#b3c1cd",
                 "modified.background": "#b3c1cd1a",
                 "modified.border": "#b3c1cd",
-                "predictive": "#ff7c4f",
-                "predictive.background": "#ff7c4f1a",
-                "predictive.border": "#ff7c4f",
+                "predictive": "#ff8f69",
+                "predictive.background": "#ff8f691a",
+                "predictive.border": "#ff8f69",
                 "renamed": "#b3c1cd",
                 "renamed.background": "#b3c1cd1a",
                 "renamed.border": "#b3c1cd",
@@ -240,7 +240,7 @@
                         "font_weight": null
                     },
                     "hint": {
-                        "color": "#ff7c4f",
+                        "color": "#ff8f69",
                         "font_style": null,
                         "font_weight": 700
                     },
@@ -250,7 +250,7 @@
                         "font_weight": null
                     },
                     "label": {
-                        "color": "#ff7c4f",
+                        "color": "#ff8f69",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -275,7 +275,7 @@
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#ff7c4f",
+                        "color": "#ff8f69",
                         "font_style": "italic",
                         "font_weight": null
                     },
