@@ -35,6 +35,14 @@
         "crbn": {
             "template": "./themes/crbn/collection.template.json",
             "themes": ["black-atom-crbn-null", "black-atom-crbn-supr"]
+        },
+        "north": {
+            "template": "./themes/north/collection.template.json",
+            "themes": [
+                "black-atom-north-night",
+                "black-atom-north-dark-night",
+                "black-atom-north-day"
+            ]
         }
     }
 }
