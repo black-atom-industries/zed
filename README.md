@@ -149,6 +149,9 @@ mkdir -p ~/.config/zed/themes
 
 # Create symlinks for all theme files
 find ~/repos/black-atom-industries/zed/themes -name "*.json" -type f -exec ln -sf {} ~/.config/zed/themes/ \;
+
+# Or link it to another folder
+find ~/repos/black-atom-industries/zed/themes -name "*.json" -type f -exec ln -sf {} path/to/folder/ \;
 ```
 
 Alternatively, you can create symlinks for specific collections:
