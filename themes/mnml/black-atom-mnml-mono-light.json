@@ -7,7 +7,7 @@
             "name": "Black Atom — MNM ∷ Mono Light",
             "appearance": "light",
             "style": {
-                "border": "#cccccc",
+                "border": "#e6e6e6",
                 "border.variant": "#cccccc",
                 "border.focused": "#000000",
                 "border.selected": "#cccccc",
@@ -18,13 +18,13 @@
                 "background": "#ffffff",
                 "element.background": "#f5f5f5",
                 "element.hover": "#cccccc",
-                "element.active": "#cccccc",
+                "element.active": "#e6e6e6",
                 "element.selected": "#cccccc",
                 "element.disabled": "#808080",
                 "drop_target.background": "#cccccc80",
                 "ghost_element.background": "#00000000",
                 "ghost_element.hover": "#cccccc",
-                "ghost_element.active": "#cccccc",
+                "ghost_element.active": "#e6e6e6",
                 "ghost_element.selected": "#cccccc",
                 "ghost_element.disabled": "#808080",
                 "text": "#1a1a1a",
@@ -57,7 +57,7 @@
                 "editor.background": "#ffffff",
                 "editor.gutter.background": "#ffffff",
                 "editor.subheader.background": "#f5f5f5",
-                "editor.active_line.background": "#ccccccbf",
+                "editor.active_line.background": "#e6e6e6bf",
                 "editor.highlighted_line.background": "#cccccc",
                 "editor.line_number": "#4d4d4d",
                 "editor.active_line_number": "#1a1a1a",
@@ -290,7 +290,7 @@
                         "font_weight": null
                     },
                     "property": {
-                        "color": "#666666",
+                        "color": "#1a1a1a",
                         "font_style": null,
                         "font_weight": null
                     },

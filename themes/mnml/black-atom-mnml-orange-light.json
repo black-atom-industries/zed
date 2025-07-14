@@ -7,7 +7,7 @@
             "name": "Black Atom — MNM ∷ Orange Light",
             "appearance": "light",
             "style": {
-                "border": "#e5ebf1",
+                "border": "#ebf1f4",
                 "border.variant": "#e5ebf1",
                 "border.focused": "#ff7200",
                 "border.selected": "#e5ebf1",
@@ -18,13 +18,13 @@
                 "background": "#ffffff",
                 "element.background": "#f2f6f9",
                 "element.hover": "#e5ebf1",
-                "element.active": "#e5ebf1",
+                "element.active": "#ebf1f4",
                 "element.selected": "#e5ebf1",
                 "element.disabled": "#698cae",
                 "drop_target.background": "#e5ebf180",
                 "ghost_element.background": "#00000000",
                 "ghost_element.hover": "#e5ebf1",
-                "ghost_element.active": "#e5ebf1",
+                "ghost_element.active": "#ebf1f4",
                 "ghost_element.selected": "#e5ebf1",
                 "ghost_element.disabled": "#698cae",
                 "text": "#1f2326",
@@ -57,7 +57,7 @@
                 "editor.background": "#ffffff",
                 "editor.gutter.background": "#ffffff",
                 "editor.subheader.background": "#f2f6f9",
-                "editor.active_line.background": "#e5ebf1bf",
+                "editor.active_line.background": "#ebf1f4bf",
                 "editor.highlighted_line.background": "#e5ebf1",
                 "editor.line_number": "#3b4249",
                 "editor.active_line_number": "#1f2326",
@@ -290,7 +290,7 @@
                         "font_weight": null
                     },
                     "property": {
-                        "color": "#507294",
+                        "color": "#ff4019",
                         "font_style": null,
                         "font_weight": null
                     },

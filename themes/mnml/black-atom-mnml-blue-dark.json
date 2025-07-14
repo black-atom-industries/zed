@@ -1,15 +1,15 @@
 {
     "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-    "name": "Black Atom — MNM ∷ Mono Dark",
+    "name": "Black Atom — MNM ∷ Blue Dark",
     "author": "Black Atom",
     "themes": [
         {
-            "name": "Black Atom — MNM ∷ Mono Dark",
+            "name": "Black Atom — MNM ∷ Blue Dark",
             "appearance": "dark",
             "style": {
                 "border": "#333333",
                 "border.variant": "#333333",
-                "border.focused": "#ffffff",
+                "border.focused": "#005CC5",
                 "border.selected": "#4d4d4d",
                 "border.transparent": "#00000000",
                 "border.disabled": "#808080",
@@ -31,12 +31,12 @@
                 "text.muted": "#999999",
                 "text.placeholder": "#808080",
                 "text.disabled": "#808080",
-                "text.accent": "#ffffff",
+                "text.accent": "#005CC5",
                 "icon": "#cccccc",
                 "icon.muted": "#999999",
                 "icon.disabled": "#808080",
                 "icon.placeholder": "#999999",
-                "icon.accent": "#ffffff",
+                "icon.accent": "#005CC5",
                 "status_bar.background": "#1a1a1a",
                 "title_bar.background": "#1a1a1a",
                 "title_bar.inactive_background": "#1a1a1a",
@@ -46,9 +46,9 @@
                 "tab.active_background": "#000000",
                 "search.match_background": "#4d4d4d66",
                 "panel.background": "#1a1a1a",
-                "panel.focused_border": "#ffffff",
-                "pane.focused_border": "#ffffff",
-                "scrollbar.thumb.background": "#ffffff4c",
+                "panel.focused_border": "#005CC5",
+                "pane.focused_border": "#005CC5",
+                "scrollbar.thumb.background": "#005CC54c",
                 "scrollbar.thumb.hover_background": "#333333",
                 "scrollbar.thumb.border": "#333333",
                 "scrollbar.track.background": "#00000000",
@@ -65,7 +65,7 @@
                 "editor.invisible": "#808080",
                 "editor.wrap_guide": "#8080800d",
                 "editor.active_wrap_guide": "#8080801a",
-                "editor.document_highlight.read_background": "#ffffff1a",
+                "editor.document_highlight.read_background": "#005CC51a",
                 "editor.document_highlight.write_background": "#4d4d4d66",
                 "terminal.background": "#000000",
                 "terminal.foreground": "#cccccc",
@@ -95,13 +95,13 @@
                 "terminal.ansi.white": "#999999",
                 "terminal.ansi.bright_white": "#cccccc",
                 "terminal.ansi.dim_white": "#999999",
-                "link_text.hover": "#ffffff",
+                "link_text.hover": "#005CC5",
                 "version_control_added": "#999999",
                 "version_control_modified": "#999999",
                 "version_control_deleted": "#999999",
-                "conflict": "#f5f5f5",
-                "conflict.background": "#f5f5f51a",
-                "conflict.border": "#f5f5f5",
+                "conflict": "#004A9F",
+                "conflict.background": "#004A9F1a",
+                "conflict.border": "#004A9F",
                 "created": "#999999",
                 "created.background": "#9999991a",
                 "created.border": "#999999",
@@ -114,9 +114,9 @@
                 "hidden": "#808080",
                 "hidden.background": "#4d4d4d1a",
                 "hidden.border": "#808080",
-                "hint": "#e6e6e6",
-                "hint.background": "#e6e6e61a",
-                "hint.border": "#e6e6e6",
+                "hint": "#0083c5",
+                "hint.background": "#0083c51a",
+                "hint.border": "#0083c5",
                 "ignored": "#808080",
                 "ignored.background": "#4d4d4d1a",
                 "ignored.border": "#808080",
@@ -126,9 +126,9 @@
                 "modified": "#999999",
                 "modified.background": "#9999991a",
                 "modified.border": "#999999",
-                "predictive": "#e6e6e6",
-                "predictive.background": "#e6e6e61a",
-                "predictive.border": "#e6e6e6",
+                "predictive": "#0083c5",
+                "predictive.background": "#0083c51a",
+                "predictive.border": "#0083c5",
                 "renamed": "#999999",
                 "renamed.background": "#9999991a",
                 "renamed.border": "#999999",
@@ -138,14 +138,14 @@
                 "unreachable": "#808080",
                 "unreachable.background": "#4d4d4d1a",
                 "unreachable.border": "#808080",
-                "warning": "#f5f5f5",
-                "warning.background": "#f5f5f51a",
-                "warning.border": "#f5f5f5",
+                "warning": "#004A9F",
+                "warning.background": "#004A9F1a",
+                "warning.border": "#004A9F",
                 "players": [
                     {
-                        "cursor": "#ffffff",
-                        "background": "#ffffff",
-                        "selection": "#ffffff3d"
+                        "cursor": "#005CC5",
+                        "background": "#005CC5",
+                        "selection": "#005CC53d"
                     },
                     {
                         "cursor": "#808080",
@@ -178,9 +178,9 @@
                         "selection": "#9999993d"
                     },
                     {
-                        "cursor": "#ffffff",
-                        "background": "#ffffff",
-                        "selection": "#ffffff3d"
+                        "cursor": "#005CC5",
+                        "background": "#005CC5",
+                        "selection": "#005CC53d"
                     }
                 ],
                 "syntax": {
@@ -210,7 +210,7 @@
                         "font_weight": null
                     },
                     "constructor": {
-                        "color": "#ffffff",
+                        "color": "#005CC5",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -220,12 +220,12 @@
                         "font_weight": null
                     },
                     "emphasis": {
-                        "color": "#ffffff",
+                        "color": "#005CC5",
                         "font_style": "italic",
                         "font_weight": null
                     },
                     "emphasis.strong": {
-                        "color": "#ffffff",
+                        "color": "#005CC5",
                         "font_style": null,
                         "font_weight": 700
                     },
@@ -235,12 +235,12 @@
                         "font_weight": null
                     },
                     "function": {
-                        "color": "#ffffff",
+                        "color": "#005CC5",
                         "font_style": null,
                         "font_weight": null
                     },
                     "hint": {
-                        "color": "#f5f5f5",
+                        "color": "#004A9F",
                         "font_style": null,
                         "font_weight": 700
                     },
@@ -250,7 +250,7 @@
                         "font_weight": null
                     },
                     "label": {
-                        "color": "#f5f5f5",
+                        "color": "#004A9F",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -275,7 +275,7 @@
                         "font_weight": null
                     },
                     "predictive": {
-                        "color": "#e6e6e6",
+                        "color": "#0083c5",
                         "font_style": "italic",
                         "font_weight": null
                     },
@@ -290,7 +290,7 @@
                         "font_weight": null
                     },
                     "property": {
-                        "color": "#f5f5f5",
+                        "color": "#004A9F",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -345,7 +345,7 @@
                         "font_weight": null
                     },
                     "tag": {
-                        "color": "#ffffff",
+                        "color": "#005CC5",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -355,7 +355,7 @@
                         "font_weight": null
                     },
                     "title": {
-                        "color": "#ffffff",
+                        "color": "#005CC5",
                         "font_style": null,
                         "font_weight": 700
                     },
