@@ -82,12 +82,12 @@
                 "terminal.ansi.yellow": "#dca958",
                 "terminal.ansi.bright_yellow": "#dca958",
                 "terminal.ansi.dim_yellow": "#f2a557",
-                "terminal.ansi.blue": "#96b9e9",
-                "terminal.ansi.bright_blue": "#96b9e9",
-                "terminal.ansi.dim_blue": "#9f99e5",
-                "terminal.ansi.magenta": "#c4acd7",
-                "terminal.ansi.bright_magenta": "#c4acd7",
-                "terminal.ansi.dim_magenta": "#d5a9c3",
+                "terminal.ansi.blue": "#8ca3c7",
+                "terminal.ansi.bright_blue": "#8ca3c7",
+                "terminal.ansi.dim_blue": "#7a8db8",
+                "terminal.ansi.magenta": "#b8a5b2",
+                "terminal.ansi.bright_magenta": "#b8a5b2",
+                "terminal.ansi.dim_magenta": "#a68b96",
                 "terminal.ansi.cyan": "#7bb7a4",
                 "terminal.ansi.bright_cyan": "#7bb7a4",
                 "terminal.ansi.dim_cyan": "#619f80",
@@ -96,7 +96,7 @@
                 "terminal.ansi.dim_white": "#91a0bc",
                 "link_text.hover": "#dca958",
                 "version_control_added": "#85b97e",
-                "version_control_modified": "#96b9e9",
+                "version_control_modified": "#8ca3c7",
                 "version_control_deleted": "#c06a59",
                 "conflict": "#dca958",
                 "conflict.background": "#dca9581a",
@@ -119,18 +119,18 @@
                 "ignored": "#7581a4",
                 "ignored.background": "#47506b1a",
                 "ignored.border": "#7581a4",
-                "info": "#96b9e9",
-                "info.background": "#96b9e91a",
-                "info.border": "#96b9e9",
-                "modified": "#96b9e9",
-                "modified.background": "#96b9e91a",
-                "modified.border": "#96b9e9",
+                "info": "#8ca3c7",
+                "info.background": "#8ca3c71a",
+                "info.border": "#8ca3c7",
+                "modified": "#8ca3c7",
+                "modified.background": "#8ca3c71a",
+                "modified.border": "#8ca3c7",
                 "predictive": "#f2a557",
                 "predictive.background": "#f2a5571a",
                 "predictive.border": "#f2a557",
-                "renamed": "#96b9e9",
-                "renamed.background": "#96b9e91a",
-                "renamed.border": "#96b9e9",
+                "renamed": "#8ca3c7",
+                "renamed.background": "#8ca3c71a",
+                "renamed.border": "#8ca3c7",
                 "success": "#85b97e",
                 "success.background": "#85b97e1a",
                 "success.border": "#85b97e",
@@ -147,9 +147,9 @@
                         "selection": "#dca9583d"
                     },
                     {
-                        "cursor": "#c4acd7",
-                        "background": "#c4acd7",
-                        "selection": "#c4acd73d"
+                        "cursor": "#b8a5b2",
+                        "background": "#b8a5b2",
+                        "selection": "#b8a5b23d"
                     },
                     {
                         "cursor": "#dca958",
@@ -162,9 +162,9 @@
                         "selection": "#7bb7a43d"
                     },
                     {
-                        "cursor": "#96b9e9",
-                        "background": "#96b9e9",
-                        "selection": "#96b9e93d"
+                        "cursor": "#8ca3c7",
+                        "background": "#8ca3c7",
+                        "selection": "#8ca3c73d"
                     },
                     {
                         "cursor": "#c06a59",
@@ -269,7 +269,7 @@
                         "font_weight": null
                     },
                     "operator": {
-                        "color": "#c4acd7",
+                        "color": "#b8a5b2",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -289,7 +289,7 @@
                         "font_weight": null
                     },
                     "property": {
-                        "color": "#96b9e9",
+                        "color": "#8ca3c7",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -364,12 +364,12 @@
                         "font_weight": null
                     },
                     "variable": {
-                        "color": "#96b9e9",
+                        "color": "#8ca3c7",
                         "font_style": null,
                         "font_weight": null
                     },
                     "variable.special": {
-                        "color": "#96b9e9",
+                        "color": "#8ca3c7",
                         "font_style": null,
                         "font_weight": null
                     },
