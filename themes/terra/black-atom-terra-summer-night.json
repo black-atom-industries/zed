@@ -244,7 +244,7 @@
                         "font_weight": 700
                     },
                     "keyword": {
-                        "color": "#c06a59",
+                        "color": "#b8a5b2",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -289,7 +289,7 @@
                         "font_weight": null
                     },
                     "property": {
-                        "color": "#8ca3c7",
+                        "color": "#7a8db8",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -369,7 +369,7 @@
                         "font_weight": null
                     },
                     "variable.special": {
-                        "color": "#8ca3c7",
+                        "color": "#7a8db8",
                         "font_style": null,
                         "font_weight": null
                     },
