@@ -74,11 +74,11 @@
                 "terminal.ansi.black": "#282828",
                 "terminal.ansi.bright_black": "#4f4f61",
                 "terminal.ansi.dim_black": "#4f4f61",
-                "terminal.ansi.red": "#F591B2",
-                "terminal.ansi.bright_red": "#F591B2",
+                "terminal.ansi.red": "#f591b2",
+                "terminal.ansi.bright_red": "#f591b2",
                 "terminal.ansi.dim_red": "#f2759e",
-                "terminal.ansi.green": "#90B99F",
-                "terminal.ansi.bright_green": "#90B99F",
+                "terminal.ansi.green": "#90b99f",
+                "terminal.ansi.bright_green": "#90b99f",
                 "terminal.ansi.dim_green": "#71a584",
                 "terminal.ansi.yellow": "#eab899",
                 "terminal.ansi.bright_yellow": "#eab899",
@@ -86,8 +86,8 @@
                 "terminal.ansi.blue": "#a1b0cf",
                 "terminal.ansi.bright_blue": "#a1b0cf",
                 "terminal.ansi.dim_blue": "#8699c1",
-                "terminal.ansi.magenta": "#ACA1CF",
-                "terminal.ansi.bright_magenta": "#ACA1CF",
+                "terminal.ansi.magenta": "#aca1cf",
+                "terminal.ansi.bright_magenta": "#aca1cf",
                 "terminal.ansi.dim_magenta": "#9789c3",
                 "terminal.ansi.cyan": "#8dd9c5",
                 "terminal.ansi.bright_cyan": "#8dd9c5",
@@ -96,50 +96,50 @@
                 "terminal.ansi.bright_white": "#e6e6e6",
                 "terminal.ansi.dim_white": "#9d9daf",
                 "link_text.hover": "#eab899",
-                "version_control_added": "#2d3430",
-                "version_control_modified": "#303237",
-                "version_control_deleted": "#3d2e33",
+                "version_control_added": "#2c302d",
+                "version_control_modified": "#2d2f33",
+                "version_control_deleted": "#382c2f",
                 "conflict": "#eab899",
-                "conflict.background": "#3b332f1a",
+                "conflict.background": "#36302d1a",
                 "conflict.border": "#eab899",
-                "created": "#90B99F",
-                "created.background": "#2d34301a",
-                "created.border": "#90B99F",
-                "deleted": "#F591B2",
-                "deleted.background": "#3d2e331a",
-                "deleted.border": "#F591B2",
-                "error": "#F591B2",
-                "error.background": "#3d2e331a",
-                "error.border": "#F591B2",
+                "created": "#90b99f",
+                "created.background": "#2c302d1a",
+                "created.border": "#90b99f",
+                "deleted": "#f591b2",
+                "deleted.background": "#382c2f1a",
+                "deleted.border": "#f591b2",
+                "error": "#f591b2",
+                "error.background": "#382c2f1a",
+                "error.border": "#f591b2",
                 "hidden": "#828299",
                 "hidden.background": "#4f4f611a",
                 "hidden.border": "#828299",
                 "hint": "#f6a090",
-                "hint.background": "#3d302d1a",
+                "hint.background": "#382e2c1a",
                 "hint.border": "#f6a090",
                 "ignored": "#828299",
                 "ignored.background": "#4f4f611a",
                 "ignored.border": "#828299",
                 "info": "#a1b0cf",
-                "info.background": "#3032371a",
+                "info.background": "#2d2f331a",
                 "info.border": "#a1b0cf",
                 "modified": "#a1b0cf",
-                "modified.background": "#3032371a",
+                "modified.background": "#2d2f331a",
                 "modified.border": "#a1b0cf",
                 "predictive": "#f6a090",
-                "predictive.background": "#3d302d1a",
+                "predictive.background": "#382e2c1a",
                 "predictive.border": "#f6a090",
                 "renamed": "#a1b0cf",
-                "renamed.background": "#3032371a",
+                "renamed.background": "#2d2f331a",
                 "renamed.border": "#a1b0cf",
-                "success": "#90B99F",
-                "success.background": "#2d34301a",
-                "success.border": "#90B99F",
+                "success": "#90b99f",
+                "success.background": "#2c302d1a",
+                "success.border": "#90b99f",
                 "unreachable": "#828299",
                 "unreachable.background": "#4f4f611a",
                 "unreachable.border": "#828299",
                 "warning": "#eab899",
-                "warning.background": "#3b332f1a",
+                "warning.background": "#36302d1a",
                 "warning.border": "#eab899",
                 "players": [
                     {
@@ -148,9 +148,9 @@
                         "selection": "#eab8993d"
                     },
                     {
-                        "cursor": "#ACA1CF",
-                        "background": "#ACA1CF",
-                        "selection": "#ACA1CF3d"
+                        "cursor": "#aca1cf",
+                        "background": "#aca1cf",
+                        "selection": "#aca1cf3d"
                     },
                     {
                         "cursor": "#eab899",
@@ -168,14 +168,14 @@
                         "selection": "#a1b0cf3d"
                     },
                     {
-                        "cursor": "#F591B2",
-                        "background": "#F591B2",
-                        "selection": "#F591B23d"
+                        "cursor": "#f591b2",
+                        "background": "#f591b2",
+                        "selection": "#f591b23d"
                     },
                     {
-                        "cursor": "#90B99F",
-                        "background": "#90B99F",
-                        "selection": "#90B99F3d"
+                        "cursor": "#90b99f",
+                        "background": "#90b99f",
+                        "selection": "#90b99f3d"
                     },
                     {
                         "cursor": "#eab899",
@@ -245,7 +245,7 @@
                         "font_weight": 700
                     },
                     "keyword": {
-                        "color": "#ACA1CF",
+                        "color": "#aca1cf",
                         "font_style": null,
                         "font_weight": 700
                     },
@@ -255,12 +255,12 @@
                         "font_weight": null
                     },
                     "link_text": {
-                        "color": "#90B99F",
+                        "color": "#90b99f",
                         "font_style": "italic",
                         "font_weight": null
                     },
                     "link_uri": {
-                        "color": "#90B99F",
+                        "color": "#90b99f",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -320,22 +320,22 @@
                         "font_weight": null
                     },
                     "string": {
-                        "color": "#90B99F",
+                        "color": "#90b99f",
                         "font_style": null,
                         "font_weight": null
                     },
                     "string.escape": {
-                        "color": "#F591B2",
+                        "color": "#f591b2",
                         "font_style": null,
                         "font_weight": null
                     },
                     "string.regex": {
-                        "color": "#F591B2",
+                        "color": "#f591b2",
                         "font_style": null,
                         "font_weight": null
                     },
                     "string.special": {
-                        "color": "#90B99F",
+                        "color": "#90b99f",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -350,7 +350,7 @@
                         "font_weight": null
                     },
                     "text.literal": {
-                        "color": "#90B99F",
+                        "color": "#90b99f",
                         "font_style": null,
                         "font_weight": null
                     },
