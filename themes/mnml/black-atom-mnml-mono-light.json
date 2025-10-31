@@ -329,7 +329,7 @@
                         "font_weight": null
                     },
                     "string": {
-                        "color": "#8c8c8c",
+                        "color": "#666666",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -359,7 +359,7 @@
                         "font_weight": null
                     },
                     "text.literal": {
-                        "color": "#8c8c8c",
+                        "color": "#666666",
                         "font_style": null,
                         "font_weight": null
                     },
