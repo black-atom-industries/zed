@@ -140,6 +140,15 @@
                 "warning": "<%= theme.ui.fg.warn %>",
                 "warning.background": "<%= theme.ui.bg.warn %>1a",
                 "warning.border": "<%= theme.ui.fg.warn %>",
+                "vim.normal.background": "<%= theme.ui.bg.panel %>",
+                "vim.insert.background": "<%= theme.ui.fg.warn %>",
+                "vim.visual.background": "<%= theme.ui.fg.info %>",
+                "vim.visual_line.background": "<%= theme.ui.fg.info %>",
+                "vim.visual_block.background": "<%= theme.ui.fg.info %>",
+                "vim.replace.background": "<%= theme.ui.fg.negative %>",
+                "vim.helix_normal.background": "<%= theme.ui.bg.panel %>",
+                "vim.helix_select.background": "<%= theme.ui.fg.info %>",
+                "vim.mode.text": "<%= theme.ui.fg.default %>",
                 "players": [
                     {
                         "cursor": "<%= theme.ui.fg.accent %>",
