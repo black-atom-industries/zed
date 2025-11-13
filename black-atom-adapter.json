@@ -43,8 +43,8 @@
         "mnml": {
             "template": "./themes/mnml/collection.template.json",
             "themes": [
-                "black-atom-mnml-mono-dark",
-                "black-atom-mnml-mono-light",
+                "black-atom-mnml-clay-dark",
+                "black-atom-mnml-clay-light",
                 "black-atom-mnml-orange-dark",
                 "black-atom-mnml-orange-light",
                 "black-atom-mnml-mikado-dark",
