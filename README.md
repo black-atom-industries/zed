@@ -147,26 +147,29 @@ For theme development, it's more efficient to use symlinks rather than copying f
 # Create the Zed themes directory if it doesn't exist
 mkdir -p ~/.config/zed/themes
 
-# Create symlinks for all theme files
-find ~/repos/black-atom-industries/zed/themes -name "*.json" -type f -exec ln -sf {} ~/.config/zed/themes/ \;
-
-# Or link it to another folder
-find ~/repos/black-atom-industries/zed/themes -name "*.json" -type f -exec ln -sf {} path/to/folder/ \;
+# Change to the themes directory and create relative symlinks
+cd ~/.config/zed/themes
+find ~/repos/black-atom-industries/zed/themes -name "*.json" -type f | while read -r theme; do
+    ln -sf "../../../repos/black-atom-industries/zed/themes/${theme#*/zed/themes/}" .
+done
 ```
 
 Alternatively, you can create symlinks for specific collections:
 
 ```bash
+# Change to the themes directory first
+cd ~/.config/zed/themes
+
 # JPN Collection
-ln -s ~/repos/black-atom-industries/zed/themes/jpn/black-atom-jpn-koyo-hiru.json ~/.config/zed/themes/black-atom-jpn-koyo-hiru.json
-ln -s ~/repos/black-atom-industries/zed/themes/jpn/black-atom-jpn-koyo-yoru.json ~/.config/zed/themes/black-atom-jpn-koyo-yoru.json
-ln -s ~/repos/black-atom-industries/zed/themes/jpn/black-atom-jpn-tsuki-yoru.json ~/.config/zed/themes/black-atom-jpn-tsuki-yoru.json
+ln -sf ../../../repos/black-atom-industries/zed/themes/jpn/black-atom-jpn-koyo-hiru.json .
+ln -sf ../../../repos/black-atom-industries/zed/themes/jpn/black-atom-jpn-koyo-yoru.json .
+ln -sf ../../../repos/black-atom-industries/zed/themes/jpn/black-atom-jpn-tsuki-yoru.json .
 
 # Stations Collection
-ln -s ~/repos/black-atom-industries/zed/themes/stations/black-atom-stations-engineering.json ~/.config/zed/themes/black-atom-stations-engineering.json
-ln -s ~/repos/black-atom-industries/zed/themes/stations/black-atom-stations-operations.json ~/.config/zed/themes/black-atom-stations-operations.json
-ln -s ~/repos/black-atom-industries/zed/themes/stations/black-atom-stations-medical.json ~/.config/zed/themes/black-atom-stations-medical.json
-ln -s ~/repos/black-atom-industries/zed/themes/stations/black-atom-stations-research.json ~/.config/zed/themes/black-atom-stations-research.json
+ln -sf ../../../repos/black-atom-industries/zed/themes/stations/black-atom-stations-engineering.json .
+ln -sf ../../../repos/black-atom-industries/zed/themes/stations/black-atom-stations-operations.json .
+ln -sf ../../../repos/black-atom-industries/zed/themes/stations/black-atom-stations-medical.json .
+ln -sf ../../../repos/black-atom-industries/zed/themes/stations/black-atom-stations-research.json .
 
 # And symlinks for Terra and CRBN collections would follow the same pattern...
 ```
