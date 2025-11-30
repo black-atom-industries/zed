@@ -93,7 +93,7 @@
                 "terminal.ansi.bright_cyan": "#7b919d",
                 "terminal.ansi.dim_cyan": "#7b919d",
                 "terminal.ansi.white": "#a8b9c0",
-                "terminal.ansi.bright_white": "#b4c3c9",
+                "terminal.ansi.bright_white": "#a8b9c0",
                 "terminal.ansi.dim_white": "#a8b9c0",
                 "link_text.hover": "#cc8f00",
                 "version_control_added": "#b8dae2",
