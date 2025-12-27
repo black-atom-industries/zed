@@ -97,7 +97,7 @@
                 "terminal.ansi.dim_white": "#c4c4c4",
                 "link_text.hover": "#bdacb0",
                 "version_control_added": "#363830",
-                "version_control_modified": "#303836",
+                "version_control_modified": "#30373a",
                 "version_control_deleted": "#3d3030",
                 "conflict": "#d6b174",
                 "conflict.background": "#3b37301a",
@@ -120,18 +120,18 @@
                 "ignored": "#7a7a7a",
                 "ignored.background": "#4242421a",
                 "ignored.border": "#7a7a7a",
-                "info": "#78baac",
-                "info.background": "#3038361a",
-                "info.border": "#78baac",
-                "modified": "#78baac",
-                "modified.background": "#3038361a",
-                "modified.border": "#78baac",
+                "info": "#79b5cc",
+                "info.background": "#30373a1a",
+                "info.border": "#79b5cc",
+                "modified": "#79b5cc",
+                "modified.background": "#30373a1a",
+                "modified.border": "#79b5cc",
                 "predictive": "#d6b174",
                 "predictive.background": "#3b37301a",
                 "predictive.border": "#d6b174",
-                "renamed": "#78baac",
-                "renamed.background": "#3038361a",
-                "renamed.border": "#78baac",
+                "renamed": "#79b5cc",
+                "renamed.background": "#30373a1a",
+                "renamed.border": "#79b5cc",
                 "success": "#a9ba78",
                 "success.background": "#3638301a",
                 "success.border": "#a9ba78",
@@ -143,12 +143,12 @@
                 "warning.border": "#d6b174",
                 "vim.normal.background": "#242424",
                 "vim.insert.background": "#d6b174",
-                "vim.visual.background": "#78baac",
-                "vim.visual_line.background": "#78baac",
-                "vim.visual_block.background": "#78baac",
+                "vim.visual.background": "#79b5cc",
+                "vim.visual_line.background": "#79b5cc",
+                "vim.visual_block.background": "#79b5cc",
                 "vim.replace.background": "#dd7577",
                 "vim.helix_normal.background": "#242424",
-                "vim.helix_select.background": "#78baac",
+                "vim.helix_select.background": "#79b5cc",
                 "vim.mode.text": "#dedede",
                 "players": [
                     {
@@ -249,7 +249,7 @@
                         "font_weight": null
                     },
                     "hint": {
-                        "color": "#78baac",
+                        "color": "#79b5cc",
                         "font_style": null,
                         "font_weight": 700
                     },
@@ -259,17 +259,17 @@
                         "font_weight": null
                     },
                     "label": {
-                        "color": "#958d8f",
+                        "color": "#9a8a8f",
                         "font_style": null,
                         "font_weight": null
                     },
                     "link_text": {
-                        "color": "#958d8f",
+                        "color": "#9a8a8f",
                         "font_style": "italic",
                         "font_weight": null
                     },
                     "link_uri": {
-                        "color": "#958d8f",
+                        "color": "#9a8a8f",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -299,7 +299,7 @@
                         "font_weight": null
                     },
                     "property": {
-                        "color": "#958d8f",
+                        "color": "#9a8a8f",
                         "font_style": null,
                         "font_weight": null
                     },
