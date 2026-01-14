@@ -70,9 +70,9 @@
                 "terminal.background": "#ebeff5",
                 "terminal.foreground": "#1e2a37",
                 "terminal.bright_foreground": "#1e2a37",
-                "terminal.ansi.black": "#2d3c4c",
-                "terminal.ansi.bright_black": "#647d97",
-                "terminal.ansi.dim_black": "#647d97",
+                "terminal.ansi.black": "#3c4f62",
+                "terminal.ansi.bright_black": "#4f667c",
+                "terminal.ansi.dim_black": "#4f667c",
                 "terminal.ansi.red": "#6e6ab2",
                 "terminal.ansi.bright_red": "#6e6ab2",
                 "terminal.ansi.dim_red": "#5d5292",
@@ -203,7 +203,7 @@
                         "font_weight": null
                     },
                     "comment": {
-                        "color": "#647d97",
+                        "color": "#4f667c",
                         "font_style": "italic",
                         "font_weight": null
                     },
@@ -303,12 +303,12 @@
                         "font_weight": null
                     },
                     "punctuation": {
-                        "color": "#647d97",
+                        "color": "#4f667c",
                         "font_style": null,
                         "font_weight": null
                     },
                     "punctuation.bracket": {
-                        "color": "#647d97",
+                        "color": "#4f667c",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -318,12 +318,12 @@
                         "font_weight": null
                     },
                     "punctuation.list_marker": {
-                        "color": "#647d97",
+                        "color": "#4f667c",
                         "font_style": null,
                         "font_weight": null
                     },
                     "punctuation.special": {
-                        "color": "#647d97",
+                        "color": "#4f667c",
                         "font_style": null,
                         "font_weight": null
                     },

@@ -71,9 +71,9 @@
                 "terminal.foreground": "#d5f4e3",
                 "terminal.bright_foreground": "#d5f4e3",
                 "terminal.dim_foreground": "#0d1818",
-                "terminal.ansi.black": "#1c2626",
-                "terminal.ansi.bright_black": "#5b8972",
-                "terminal.ansi.dim_black": "#5b8972",
+                "terminal.ansi.black": "#2a3535",
+                "terminal.ansi.bright_black": "#51796d",
+                "terminal.ansi.dim_black": "#51796d",
                 "terminal.ansi.red": "#f08cb4",
                 "terminal.ansi.bright_red": "#f08cb4",
                 "terminal.ansi.dim_red": "#eb7aa8",
@@ -92,9 +92,9 @@
                 "terminal.ansi.cyan": "#81d6a5",
                 "terminal.ansi.bright_cyan": "#81d6a5",
                 "terminal.ansi.dim_cyan": "#63bd89",
-                "terminal.ansi.white": "#91bcad",
+                "terminal.ansi.white": "#b2e5cd",
                 "terminal.ansi.bright_white": "#d5f4e3",
-                "terminal.ansi.dim_white": "#91bcad",
+                "terminal.ansi.dim_white": "#b2e5cd",
                 "link_text.hover": "#c6de68",
                 "version_control_added": "#15302d",
                 "version_control_modified": "#233332",
@@ -204,7 +204,7 @@
                         "font_weight": null
                     },
                     "comment": {
-                        "color": "#5b8972",
+                        "color": "#51796d",
                         "font_style": "italic",
                         "font_weight": null
                     },
@@ -304,12 +304,12 @@
                         "font_weight": null
                     },
                     "punctuation": {
-                        "color": "#91bcad",
+                        "color": "#b2e5cd",
                         "font_style": null,
                         "font_weight": null
                     },
                     "punctuation.bracket": {
-                        "color": "#91bcad",
+                        "color": "#b2e5cd",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -319,12 +319,12 @@
                         "font_weight": null
                     },
                     "punctuation.list_marker": {
-                        "color": "#91bcad",
+                        "color": "#b2e5cd",
                         "font_style": null,
                         "font_weight": null
                     },
                     "punctuation.special": {
-                        "color": "#91bcad",
+                        "color": "#b2e5cd",
                         "font_style": null,
                         "font_weight": null
                     },

@@ -70,9 +70,9 @@
                 "terminal.background": "#d4dcd8",
                 "terminal.foreground": "#385547",
                 "terminal.bright_foreground": "#385547",
-                "terminal.ansi.black": "#416353",
-                "terminal.ansi.bright_black": "#62937a",
-                "terminal.ansi.dim_black": "#62937a",
+                "terminal.ansi.black": "#517b67",
+                "terminal.ansi.bright_black": "#55816a",
+                "terminal.ansi.dim_black": "#55816a",
                 "terminal.ansi.red": "#dd7e5d",
                 "terminal.ansi.bright_red": "#dd7e5d",
                 "terminal.ansi.dim_red": "#ca6d4c",
@@ -203,7 +203,7 @@
                         "font_weight": null
                     },
                     "comment": {
-                        "color": "#62937a",
+                        "color": "#55816a",
                         "font_style": "italic",
                         "font_weight": null
                     },
@@ -303,12 +303,12 @@
                         "font_weight": null
                     },
                     "punctuation": {
-                        "color": "#62937a",
+                        "color": "#55816a",
                         "font_style": null,
                         "font_weight": null
                     },
                     "punctuation.bracket": {
-                        "color": "#62937a",
+                        "color": "#55816a",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -318,12 +318,12 @@
                         "font_weight": null
                     },
                     "punctuation.list_marker": {
-                        "color": "#62937a",
+                        "color": "#55816a",
                         "font_style": null,
                         "font_weight": null
                     },
                     "punctuation.special": {
-                        "color": "#62937a",
+                        "color": "#55816a",
                         "font_style": null,
                         "font_weight": null
                     },
