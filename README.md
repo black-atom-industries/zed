@@ -1,9 +1,5 @@
 # Black Atom for Zed
 
-<div align="center">
-  <img src="https://github.com/black-atom-industries/.github/blob/main/profile/assets/black-atom-banner.jpg" alt="Black Atom Banner" style="width:100%"/>
-</div>
-
 > A collection of elegant, cohesive themes for the Zed editor by Black Atom Industries
 
 ## What is a Black Atom Adapter?
