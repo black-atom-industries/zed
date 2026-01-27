@@ -6,23 +6,23 @@
 
 This repository is a **Zed adapter** for the Black Atom theme ecosystem. In the Black Atom architecture:
 
-- The [core repository](https://github.com/black-atom-industries/core) is the single source of truth for all theme definitions Each adapter implements these themes for a specific platform (Neovim, VS Code, Alacritty, etc.)
+- The [core repository](https://github.com/black-atom-industries/core) is the single source of truth for all theme definitions
+- Each adapter implements these themes for a specific platform (Neovim, VS Code, Alacritty, etc.)
 - The adapter uses templates to transform core theme definitions into platform-specific files
 
 This modular approach ensures consistent colors and styling across all supported platforms while allowing for platform-specific optimizations.
 
 ## Available Themes
 
-Black Atom includes multiple theme collections, each with its own distinct style:
+Black Atom includes multiple theme collections, each with dark and light variants:
 
-| Collection   | Themes                                                     | Description                   |
-| ------------ | ---------------------------------------------------------- | ----------------------------- |
-| **JPN**      | koyo-hiru, koyo-yoru, tsuki-yoru                           | Japanese-inspired themes      |
-| **Stations** | engineering, operations, medical, research                 | Space station-inspired themes |
-| **Terra**    | seasons (spring, summer, fall, winter) × time (day, night) | Earth season-inspired themes  |
-| **CRBN**     | null, supr                                                 | Minimalist carbon themes      |
-
-All themes are available in both dark and light variants.
+| Collection    | Description                   |
+| ------------- | ----------------------------- |
+| **Default**   | Core Black Atom themes        |
+| **JPN**       | Japanese-inspired themes      |
+| **MNML**      | Minimalist accent themes      |
+| **Stations**  | Space station-inspired themes |
+| **Terra**     | Earth season-inspired themes  |
 
 ## Installation
 
@@ -44,7 +44,7 @@ cd zed
 
 ```bash
 # From the core repository
-black-atom-core adapt
+black-atom-core generate
 ```
 
 3. Copy the adapted `.json` files to your Zed themes directory:
@@ -84,6 +84,22 @@ cp themes/*/*.json ~/.config/zed/themes/
 ```
 
 ## Development
+
+### Installing Black Atom Core CLI
+
+To generate themes, you need the Black Atom Core CLI installed:
+
+```bash
+# Clone and enter the core repository
+git clone https://github.com/black-atom-industries/core.git
+cd core
+
+# Compile and install the CLI
+deno task cli:compile
+deno task cli:install
+```
+
+This installs the `black-atom-core` binary to `/usr/local/bin`.
 
 ### Theme Format
 
@@ -126,11 +142,11 @@ To create a new template:
 
 ### Adapting Themes
 
-To adapt all themes from the templates, run the `black-atom-core adapt` command from the directory of this repository.
+To adapt all themes from the templates, run the `black-atom-core generate` command from the directory of this repository.
 
 ```bash
 # Adapt all themes
-black-atom-core adapt
+black-atom-core generate
 ```
 
 This will process all template files defined in `black-atom-adapter.json` and create the corresponding `.json` files.
@@ -167,13 +183,13 @@ ln -sf ../../../repos/black-atom-industries/zed/themes/stations/black-atom-stati
 ln -sf ../../../repos/black-atom-industries/zed/themes/stations/black-atom-stations-medical.json .
 ln -sf ../../../repos/black-atom-industries/zed/themes/stations/black-atom-stations-research.json .
 
-# And symlinks for Terra and CRBN collections would follow the same pattern...
+# And symlinks for Default, Terra, and MNML collections would follow the same pattern...
 ```
 
 With symlinks in place, your workflow becomes:
 
 1. Make changes to templates
-2. Run `black-atom-core adapt`
+2. Run `black-atom-core generate`
 3. Restart Zed or reload themes to see changes immediately
 
 ## Contributing
