@@ -45,6 +45,7 @@
                 "tab.inactive_background": "<%= theme.ui.bg.panel %>",
                 "tab.active_background": "<%= theme.ui.bg.default %>",
                 "search.match_background": "<%= theme.ui.bg.search %>66",
+                "search.active_match_background": "<%= theme.ui.fg.warn %>66",
                 "panel.background": "<%= theme.ui.bg.panel %>",
                 "panel.focused_border": "<%= theme.ui.fg.accent %>",
                 "pane.focused_border": "<%= theme.ui.fg.accent %>",
@@ -96,9 +97,13 @@
                 "terminal.ansi.bright_white": "<%= theme.palette.white %>",
                 "terminal.ansi.dim_white": "<%= theme.palette.lightGray %>",
                 "link_text.hover": "<%= theme.ui.fg.accent %>",
-                "version_control_added": "<%= theme.ui.bg.add %>",
-                "version_control_modified": "<%= theme.ui.bg.modify %>",
-                "version_control_deleted": "<%= theme.ui.bg.delete %>",
+                "version_control.added": "<%= theme.ui.bg.add %>",
+                "version_control.modified": "<%= theme.ui.bg.modify %>",
+                "version_control.deleted": "<%= theme.ui.bg.delete %>",
+                "version_control.word_added": "<%= theme.ui.fg.add %>59",
+                "version_control.word_deleted": "<%= theme.ui.fg.delete %>CC",
+                "version_control.conflict_marker.ours": "<%= theme.ui.fg.positive %>1a",
+                "version_control.conflict_marker.theirs": "<%= theme.ui.fg.info %>1a",
                 "conflict": "<%= theme.ui.fg.warn %>",
                 "conflict.background": "<%= theme.ui.bg.warn %>1a",
                 "conflict.border": "<%= theme.ui.fg.warn %>",
@@ -263,6 +268,11 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "namespace": {
+                        "color": "<%= theme.syntax.module.default %>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "link_text": {
                         "color": "<%= theme.syntax.markup.link %>",
                         "font_style": "italic",
@@ -323,6 +333,11 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "punctuation.markup": {
+                        "color": "<%= theme.syntax.markup.list.default %>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "punctuation.special": {
                         "color": "<%= theme.syntax.punctuation.special %>",
                         "font_style": null,
@@ -350,6 +365,16 @@
                     },
                     "string.special.symbol": {
                         "color": "<%= theme.syntax.constant.builtin %>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "selector": {
+                        "color": "<%= theme.syntax.constant.default %>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "selector.pseudo": {
+                        "color": "<%= theme.syntax.tag.attribute %>",
                         "font_style": null,
                         "font_weight": null
                     },

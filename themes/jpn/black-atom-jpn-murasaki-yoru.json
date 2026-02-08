@@ -45,6 +45,7 @@
                 "tab.inactive_background": "#20141f",
                 "tab.active_background": "#332031",
                 "search.match_background": "#57395466",
+                "search.active_match_background": "#e6a31866",
                 "panel.background": "#20141f",
                 "panel.focused_border": "#e6a318",
                 "pane.focused_border": "#e6a318",
@@ -96,9 +97,13 @@
                 "terminal.ansi.bright_white": "#d4bfd6",
                 "terminal.ansi.dim_white": "#c9b1cb",
                 "link_text.hover": "#e6a318",
-                "version_control_added": "#454162",
-                "version_control_modified": "#4d405e",
-                "version_control_deleted": "#5c304b",
+                "version_control.added": "#454162",
+                "version_control.modified": "#4d405e",
+                "version_control.deleted": "#5c304b",
+                "version_control.word_added": "#6dc29f59",
+                "version_control.word_deleted": "#f0635cCC",
+                "version_control.conflict_marker.ours": "#6dc29f1a",
+                "version_control.conflict_marker.theirs": "#71c0db1a",
                 "conflict": "#e6a318",
                 "conflict.background": "#6436471a",
                 "conflict.border": "#e6a318",
@@ -263,6 +268,11 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "namespace": {
+                        "color": "#38a6cd",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "link_text": {
                         "color": "#6dc29f",
                         "font_style": "italic",
@@ -323,6 +333,11 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "punctuation.markup": {
+                        "color": "#c9b1cb",
+                        "font_style": null,
+                        "font_weight": null
+                    },
                     "punctuation.special": {
                         "color": "#c9b1cb",
                         "font_style": null,
@@ -350,6 +365,16 @@
                     },
                     "string.special.symbol": {
                         "color": "#ec362d",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "selector": {
+                        "color": "#38a6cd",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "selector.pseudo": {
+                        "color": "#946996",
                         "font_style": null,
                         "font_weight": null
                     },
