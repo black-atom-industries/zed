@@ -83,18 +83,18 @@
                 "terminal.ansi.yellow": "#8c8c8c",
                 "terminal.ansi.bright_yellow": "#8c8c8c",
                 "terminal.ansi.dim_yellow": "#8c8c8c",
-                "terminal.ansi.blue": "#7a7a7a",
-                "terminal.ansi.bright_blue": "#7a7a7a",
-                "terminal.ansi.dim_blue": "#7a7a7a",
+                "terminal.ansi.blue": "#a4a4a4",
+                "terminal.ansi.bright_blue": "#a4a4a4",
+                "terminal.ansi.dim_blue": "#a4a4a4",
                 "terminal.ansi.magenta": "#8c8c8c",
                 "terminal.ansi.bright_magenta": "#8c8c8c",
                 "terminal.ansi.dim_magenta": "#8c8c8c",
                 "terminal.ansi.cyan": "#a4a4a4",
                 "terminal.ansi.bright_cyan": "#a4a4a4",
                 "terminal.ansi.dim_cyan": "#a4a4a4",
-                "terminal.ansi.white": "#d1d1d1",
-                "terminal.ansi.bright_white": "#dedede",
-                "terminal.ansi.dim_white": "#d1d1d1",
+                "terminal.ansi.white": "#a4a4a4",
+                "terminal.ansi.bright_white": "#a4a4a4",
+                "terminal.ansi.dim_white": "#a4a4a4",
                 "link_text.hover": "#d2b5bd",
                 "version_control_added": "#2b2e22",
                 "version_control_modified": "#222d32",
@@ -172,9 +172,9 @@
                         "selection": "#a4a4a43d"
                     },
                     {
-                        "cursor": "#7a7a7a",
-                        "background": "#7a7a7a",
-                        "selection": "#7a7a7a3d"
+                        "cursor": "#a4a4a4",
+                        "background": "#a4a4a4",
+                        "selection": "#a4a4a43d"
                     },
                     {
                         "cursor": "#a4a4a4",

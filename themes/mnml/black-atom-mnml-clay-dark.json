@@ -83,18 +83,18 @@
                 "terminal.ansi.yellow": "#a49e8d",
                 "terminal.ansi.bright_yellow": "#a49e8d",
                 "terminal.ansi.dim_yellow": "#a49e8d",
-                "terminal.ansi.blue": "#868070",
-                "terminal.ansi.bright_blue": "#868070",
-                "terminal.ansi.dim_blue": "#868070",
+                "terminal.ansi.blue": "#b4ae9c",
+                "terminal.ansi.bright_blue": "#b4ae9c",
+                "terminal.ansi.dim_blue": "#b4ae9c",
                 "terminal.ansi.magenta": "#a49e8d",
                 "terminal.ansi.bright_magenta": "#a49e8d",
                 "terminal.ansi.dim_magenta": "#a49e8d",
                 "terminal.ansi.cyan": "#b4ae9c",
                 "terminal.ansi.bright_cyan": "#b4ae9c",
                 "terminal.ansi.dim_cyan": "#b4ae9c",
-                "terminal.ansi.white": "#d3cebc",
-                "terminal.ansi.bright_white": "#e3decc",
-                "terminal.ansi.dim_white": "#d3cebc",
+                "terminal.ansi.white": "#b4ae9c",
+                "terminal.ansi.bright_white": "#b4ae9c",
+                "terminal.ansi.dim_white": "#b4ae9c",
                 "link_text.hover": "#fc8a61",
                 "version_control_added": "#45412d",
                 "version_control_modified": "#3c4431",
@@ -172,9 +172,9 @@
                         "selection": "#b4ae9c3d"
                     },
                     {
-                        "cursor": "#868070",
-                        "background": "#868070",
-                        "selection": "#8680703d"
+                        "cursor": "#b4ae9c",
+                        "background": "#b4ae9c",
+                        "selection": "#b4ae9c3d"
                     },
                     {
                         "cursor": "#b4ae9c",
