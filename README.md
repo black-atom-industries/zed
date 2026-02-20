@@ -29,7 +29,7 @@ Black Atom includes multiple theme collections, each with dark and light variant
 ### Prerequisites
 
 - [Zed](https://zed.dev/) editor
-- [Black Atom Core](https://github.com/black-atom-industries/core) (for adapting themes)
+- [Deno](https://deno.land/) runtime (for generating themes)
 
 ### Setup
 
@@ -40,11 +40,10 @@ git clone https://github.com/black-atom-industries/zed.git
 cd zed
 ```
 
-2. Adapt the theme files using Black Atom Core:
+2. Generate the theme files:
 
 ```bash
-# From the core repository
-black-atom-core generate
+deno task generate
 ```
 
 3. Copy the adapted `.json` files to your Zed themes directory:
@@ -85,21 +84,17 @@ cp themes/*/*.json ~/.config/zed/themes/
 
 ## Development
 
-### Installing Black Atom Core CLI
+### Generating Themes
 
-To generate themes, you need the Black Atom Core CLI installed:
+Theme files are generated from templates using [Black Atom Core](https://jsr.io/@black-atom/core). You need [Deno](https://deno.land/) installed.
 
 ```bash
-# Clone and enter the core repository
-git clone https://github.com/black-atom-industries/core.git
-cd core
+# Generate all theme files
+deno task generate
 
-# Compile and install the CLI
-deno task cli:compile
-deno task cli:install
+# Or use watch mode for live regeneration
+deno task dev
 ```
-
-This installs the `black-atom-core` binary to `/usr/local/bin`.
 
 ### Theme Format
 
@@ -142,11 +137,10 @@ To create a new template:
 
 ### Adapting Themes
 
-To adapt all themes from the templates, run the `black-atom-core generate` command from the directory of this repository.
+To adapt all themes from the templates:
 
 ```bash
-# Adapt all themes
-black-atom-core generate
+deno task generate
 ```
 
 This will process all template files defined in `black-atom-adapter.json` and create the corresponding `.json` files.
@@ -189,7 +183,7 @@ ln -sf ../../../repos/black-atom-industries/zed/themes/stations/black-atom-stati
 With symlinks in place, your workflow becomes:
 
 1. Make changes to templates
-2. Run `black-atom-core generate`
+2. Run `deno task generate`
 3. Restart Zed or reload themes to see changes immediately
 
 ## Contributing
