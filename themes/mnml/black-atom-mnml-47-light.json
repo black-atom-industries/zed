@@ -1,10 +1,10 @@
 {
     "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-    "name": "Black Atom — MNM ∷ 47 Light",
+    "name": "Black Atom — MNML ∷ 47 Light",
     "author": "Black Atom",
     "themes": [
         {
-            "name": "Black Atom — MNM ∷ 47 Light",
+            "name": "Black Atom — MNML ∷ 47 Light",
             "appearance": "light",
             "style": {
                 "border": "#fff6e3",

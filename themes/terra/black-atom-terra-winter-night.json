@@ -1,10 +1,10 @@
 {
     "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-    "name": "Black Atom — TER ∷ Winter Night",
+    "name": "Black Atom — TERRA ∷ Winter Night",
     "author": "Black Atom",
     "themes": [
         {
-            "name": "Black Atom — TER ∷ Winter Night",
+            "name": "Black Atom — TERRA ∷ Winter Night",
             "appearance": "dark",
             "style": {
                 "border": "#1a222e",

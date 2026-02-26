@@ -93,9 +93,9 @@
                 "terminal.ansi.cyan": "#8fbcbb",
                 "terminal.ansi.bright_cyan": "#8fbcbb",
                 "terminal.ansi.dim_cyan": "#70a9a8",
-                "terminal.ansi.white": "#c9b1cb",
-                "terminal.ansi.bright_white": "#d4bfd6",
-                "terminal.ansi.dim_white": "#c9b1cb",
+                "terminal.ansi.white": "#946996",
+                "terminal.ansi.bright_white": "#b796b8",
+                "terminal.ansi.dim_white": "#946996",
                 "link_text.hover": "#e6a318",
                 "version_control.added": "#454162",
                 "version_control.modified": "#4d405e",
@@ -314,12 +314,12 @@
                         "font_weight": null
                     },
                     "punctuation": {
-                        "color": "#c9b1cb",
+                        "color": "#946996",
                         "font_style": null,
                         "font_weight": null
                     },
                     "punctuation.bracket": {
-                        "color": "#c9b1cb",
+                        "color": "#946996",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -329,17 +329,17 @@
                         "font_weight": null
                     },
                     "punctuation.list_marker": {
-                        "color": "#c9b1cb",
+                        "color": "#946996",
                         "font_style": null,
                         "font_weight": null
                     },
                     "punctuation.markup": {
-                        "color": "#c9b1cb",
+                        "color": "#946996",
                         "font_style": null,
                         "font_weight": null
                     },
                     "punctuation.special": {
-                        "color": "#c9b1cb",
+                        "color": "#946996",
                         "font_style": null,
                         "font_weight": null
                     },

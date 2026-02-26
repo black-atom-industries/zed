@@ -1,10 +1,10 @@
 {
     "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-    "name": "Black Atom — Dark Dimmed",
+    "name": "Black Atom — Dark",
     "author": "Black Atom",
     "themes": [
         {
-            "name": "Black Atom — Dark Dimmed",
+            "name": "Black Atom — Dark",
             "appearance": "dark",
             "style": {
                 "border": "#282f2f",
@@ -73,14 +73,14 @@
                 "terminal.bright_foreground": "#c9dae7",
                 "terminal.dim_foreground": "#1f2625",
                 "terminal.ansi.black": "#323a39",
-                "terminal.ansi.bright_black": "#495762",
-                "terminal.ansi.dim_black": "#495762",
+                "terminal.ansi.bright_black": "#5c6b76",
+                "terminal.ansi.dim_black": "#5c6b76",
                 "terminal.ansi.red": "#91a1ad",
                 "terminal.ansi.bright_red": "#91a1ad",
                 "terminal.ansi.dim_red": "#91a1ad",
-                "terminal.ansi.green": "#73838e",
-                "terminal.ansi.bright_green": "#73838e",
-                "terminal.ansi.dim_green": "#73838e",
+                "terminal.ansi.green": "#91a1ad",
+                "terminal.ansi.bright_green": "#91a1ad",
+                "terminal.ansi.dim_green": "#91a1ad",
                 "terminal.ansi.yellow": "#73838e",
                 "terminal.ansi.bright_yellow": "#73838e",
                 "terminal.ansi.dim_yellow": "#73838e",
@@ -187,9 +187,9 @@
                         "selection": "#91a1ad3d"
                     },
                     {
-                        "cursor": "#73838e",
-                        "background": "#73838e",
-                        "selection": "#73838e3d"
+                        "cursor": "#91a1ad",
+                        "background": "#91a1ad",
+                        "selection": "#91a1ad3d"
                     },
                     {
                         "cursor": "#afdca9",

@@ -1,10 +1,10 @@
 {
     "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-    "name": "Black Atom — MNM ∷ Mikado Dark",
+    "name": "Black Atom — MNML ∷ Mikado Dark",
     "author": "Black Atom",
     "themes": [
         {
-            "name": "Black Atom — MNM ∷ Mikado Dark",
+            "name": "Black Atom — MNML ∷ Mikado Dark",
             "appearance": "dark",
             "style": {
                 "border": "#233c56",
