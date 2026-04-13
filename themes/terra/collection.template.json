@@ -71,7 +71,7 @@
                 "terminal.background": "<%= theme.ui.bg.default %>",
                 "terminal.foreground": "<%= theme.ui.fg.default %>",
                 "terminal.bright_foreground": "<%= theme.ui.fg.default %>",
-                "terminal.dim_foreground": "<%= theme.ui.bg.default %>",
+                "terminal.dim_foreground": "<%= theme.ui.fg.subtle %>",
                 "terminal.ansi.black": "<%= theme.palette.black %>",
                 "terminal.ansi.bright_black": "<%= theme.palette.gray %>",
                 "terminal.ansi.dim_black": "<%= theme.palette.gray %>",
