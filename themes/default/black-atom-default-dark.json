@@ -71,7 +71,7 @@
                 "terminal.background": "#111817",
                 "terminal.foreground": "#c9dae7",
                 "terminal.bright_foreground": "#c9dae7",
-                "terminal.dim_foreground": "#111817",
+                "terminal.dim_foreground": "#73838e",
                 "terminal.ansi.black": "#232a2a",
                 "terminal.ansi.bright_black": "#5c6b76",
                 "terminal.ansi.dim_black": "#5c6b76",

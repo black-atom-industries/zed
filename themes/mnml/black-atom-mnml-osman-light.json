@@ -71,7 +71,7 @@
                 "terminal.background": "#fff7f0",
                 "terminal.foreground": "#38312b",
                 "terminal.bright_foreground": "#38312b",
-                "terminal.dim_foreground": "#fff7f0",
+                "terminal.dim_foreground": "#6c6158",
                 "terminal.ansi.black": "#4e463f",
                 "terminal.ansi.bright_black": "#6c6158",
                 "terminal.ansi.dim_black": "#6c6158",
@@ -399,7 +399,7 @@
                         "font_weight": null
                     },
                     "variable": {
-                        "color": "#4e463f",
+                        "color": "#433c35",
                         "font_style": null,
                         "font_weight": null
                     },
