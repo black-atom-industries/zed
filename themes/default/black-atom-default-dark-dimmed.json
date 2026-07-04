@@ -27,12 +27,12 @@
                 "ghost_element.active": "#2e3339",
                 "ghost_element.selected": "#3e4349",
                 "ghost_element.disabled": "#3e4349",
-                "text": "#e4eeea",
+                "text": "#e5ecf3",
                 "text.muted": "#7b8187",
                 "text.placeholder": "#6a6f76",
                 "text.disabled": "#6a6f76",
                 "text.accent": "#4ec983",
-                "icon": "#e4eeea",
+                "icon": "#e5ecf3",
                 "icon.muted": "#7b8187",
                 "icon.disabled": "#6a6f76",
                 "icon.placeholder": "#7b8187",
@@ -53,15 +53,15 @@
                 "scrollbar.thumb.hover_background": "#2e3339",
                 "scrollbar.thumb.border": "#2e3339",
                 "scrollbar.track.background": "#00000000",
-                "scrollbar.track.border": "#e4eeea12",
-                "editor.foreground": "#e4eeea",
+                "scrollbar.track.border": "#e5ecf312",
+                "editor.foreground": "#e5ecf3",
                 "editor.background": "#20252a",
                 "editor.gutter.background": "#20252a",
                 "editor.subheader.background": "#12171b",
                 "editor.active_line.background": "#2e3339bf",
                 "editor.highlighted_line.background": "#2e3339",
                 "editor.line_number": "#7b8187",
-                "editor.active_line_number": "#e4eeea",
+                "editor.active_line_number": "#e5ecf3",
                 "editor.hover_line_number": "#7b8187",
                 "editor.invisible": "#6a6f76",
                 "editor.wrap_guide": "#6a6f760d",
@@ -69,8 +69,8 @@
                 "editor.document_highlight.read_background": "#4ec9831a",
                 "editor.document_highlight.write_background": "#3e434966",
                 "terminal.background": "#20252a",
-                "terminal.foreground": "#e4eeea",
-                "terminal.bright_foreground": "#e4eeea",
+                "terminal.foreground": "#e5ecf3",
+                "terminal.bright_foreground": "#e5ecf3",
                 "terminal.dim_foreground": "#7b8187",
                 "terminal.ansi.black": "#3e4349",
                 "terminal.ansi.bright_black": "#6a6f76",
@@ -87,15 +87,15 @@
                 "terminal.ansi.blue": "#6a6f76",
                 "terminal.ansi.bright_blue": "#6a6f76",
                 "terminal.ansi.dim_blue": "#6a6f76",
-                "terminal.ansi.magenta": "#a59eff",
-                "terminal.ansi.bright_magenta": "#a59eff",
-                "terminal.ansi.dim_magenta": "#709afb",
+                "terminal.ansi.magenta": "#7faaff",
+                "terminal.ansi.bright_magenta": "#7faaff",
+                "terminal.ansi.dim_magenta": "#fb82a1",
                 "terminal.ansi.cyan": "#4ec983",
                 "terminal.ansi.bright_cyan": "#4ec983",
                 "terminal.ansi.dim_cyan": "#5bb661",
-                "terminal.ansi.white": "#dae4e0",
-                "terminal.ansi.bright_white": "#e4eeea",
-                "terminal.ansi.dim_white": "#dae4e0",
+                "terminal.ansi.white": "#dbe2e9",
+                "terminal.ansi.bright_white": "#e5ecf3",
+                "terminal.ansi.dim_white": "#dbe2e9",
                 "link_text.hover": "#4ec983",
                 "version_control.added": "#2f5136",
                 "version_control.modified": "#255154",
@@ -154,7 +154,7 @@
                 "vim.replace.background": "#e97292",
                 "vim.helix_normal.background": "#12171b",
                 "vim.helix_select.background": "#00b9c3",
-                "vim.mode.text": "#e4eeea",
+                "vim.mode.text": "#e5ecf3",
                 "players": [
                     {
                         "cursor": "#4ec983",
@@ -162,9 +162,9 @@
                         "selection": "#4ec9833d"
                     },
                     {
-                        "cursor": "#a59eff",
-                        "background": "#a59eff",
-                        "selection": "#a59eff3d"
+                        "cursor": "#7faaff",
+                        "background": "#7faaff",
+                        "selection": "#7faaff3d"
                     },
                     {
                         "cursor": "#7b8187",
@@ -209,27 +209,27 @@
                         "font_weight": null
                     },
                     "comment": {
-                        "color": "#5e6a5d",
+                        "color": "#595e64",
                         "font_style": "italic",
                         "font_weight": null
                     },
                     "comment.doc": {
-                        "color": "#5e6a5d",
+                        "color": "#4ec983",
                         "font_style": null,
                         "font_weight": null
                     },
                     "constant": {
-                        "color": "#d0dad6",
+                        "color": "#d2d8df",
                         "font_style": null,
                         "font_weight": null
                     },
                     "constructor": {
-                        "color": "#e4eeea",
+                        "color": "#e5ecf3",
                         "font_style": null,
                         "font_weight": null
                     },
                     "embedded": {
-                        "color": "#e4eeea",
+                        "color": "#e5ecf3",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -249,7 +249,7 @@
                         "font_weight": null
                     },
                     "function": {
-                        "color": "#e4eeea",
+                        "color": "#e5ecf3",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -259,7 +259,7 @@
                         "font_weight": 700
                     },
                     "keyword": {
-                        "color": "#a59eff",
+                        "color": "#7faaff",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -269,7 +269,7 @@
                         "font_weight": null
                     },
                     "namespace": {
-                        "color": "#dae4e0",
+                        "color": "#dbe2e9",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -289,7 +289,7 @@
                         "font_weight": null
                     },
                     "operator": {
-                        "color": "#dae4e0",
+                        "color": "#dbe2e9",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -299,12 +299,12 @@
                         "font_weight": null
                     },
                     "preproc": {
-                        "color": "#e4eeea",
+                        "color": "#e5ecf3",
                         "font_style": null,
                         "font_weight": null
                     },
                     "primary": {
-                        "color": "#e4eeea",
+                        "color": "#e5ecf3",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -314,17 +314,17 @@
                         "font_weight": null
                     },
                     "punctuation": {
-                        "color": "#d0dad6",
+                        "color": "#d2d8df",
                         "font_style": null,
                         "font_weight": null
                     },
                     "punctuation.bracket": {
-                        "color": "#d0dad6",
+                        "color": "#d2d8df",
                         "font_style": null,
                         "font_weight": null
                     },
                     "punctuation.delimiter": {
-                        "color": "#d0dad6",
+                        "color": "#d2d8df",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -339,7 +339,7 @@
                         "font_weight": null
                     },
                     "punctuation.special": {
-                        "color": "#d0dad6",
+                        "color": "#d2d8df",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -364,12 +364,12 @@
                         "font_weight": null
                     },
                     "string.special.symbol": {
-                        "color": "#dae4e0",
+                        "color": "#dbe2e9",
                         "font_style": null,
                         "font_weight": null
                     },
                     "selector": {
-                        "color": "#d0dad6",
+                        "color": "#d2d8df",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -399,12 +399,12 @@
                         "font_weight": null
                     },
                     "variable": {
-                        "color": "#d0dad6",
+                        "color": "#d2d8df",
                         "font_style": null,
                         "font_weight": null
                     },
                     "variable.special": {
-                        "color": "#d0dad6",
+                        "color": "#d2d8df",
                         "font_style": null,
                         "font_weight": null
                     },

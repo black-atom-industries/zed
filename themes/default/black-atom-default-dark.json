@@ -87,9 +87,9 @@
                 "terminal.ansi.blue": "#6a6f76",
                 "terminal.ansi.bright_blue": "#6a6f76",
                 "terminal.ansi.dim_blue": "#6a6f76",
-                "terminal.ansi.magenta": "#a59eff",
-                "terminal.ansi.bright_magenta": "#a59eff",
-                "terminal.ansi.dim_magenta": "#709afb",
+                "terminal.ansi.magenta": "#7faaff",
+                "terminal.ansi.bright_magenta": "#7faaff",
+                "terminal.ansi.dim_magenta": "#fb82a1",
                 "terminal.ansi.cyan": "#4ec983",
                 "terminal.ansi.bright_cyan": "#4ec983",
                 "terminal.ansi.dim_cyan": "#5bb661",
@@ -162,9 +162,9 @@
                         "selection": "#4ec9833d"
                     },
                     {
-                        "cursor": "#a59eff",
-                        "background": "#a59eff",
-                        "selection": "#a59eff3d"
+                        "cursor": "#7faaff",
+                        "background": "#7faaff",
+                        "selection": "#7faaff3d"
                     },
                     {
                         "cursor": "#7b8187",
@@ -209,12 +209,12 @@
                         "font_weight": null
                     },
                     "comment": {
-                        "color": "#5e6a5d",
+                        "color": "#595e64",
                         "font_style": "italic",
                         "font_weight": null
                     },
                     "comment.doc": {
-                        "color": "#5e6a5d",
+                        "color": "#4ec983",
                         "font_style": null,
                         "font_weight": null
                     },
@@ -259,7 +259,7 @@
                         "font_weight": 700
                     },
                     "keyword": {
-                        "color": "#a59eff",
+                        "color": "#7faaff",
                         "font_style": null,
                         "font_weight": null
                     },
